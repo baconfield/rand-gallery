@@ -24,7 +24,7 @@ div {
 card {
   margin: 0;
   box-shadow: 0px 0px 2px #012029;
-  background: #00000054 /*  url(https://www.tyleo.com/img/light-f71eeaec.png)*/;
+  background: #00000054;
   border-radius: 5px;
   backdrop-filter: blur(15px);
 }
