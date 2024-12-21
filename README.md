@@ -1,4 +1,4 @@
-This is an extremely simple gallery that displays a random image from a directory of images.
+Extremely simple gallery site that displays random images from a directory.
 
 ```sh
 uv sync
@@ -8,4 +8,4 @@ uv run uvicorn --reload 'index:app'
 env RAND_IMAGES='/home/<user>/Pictures' uv run uvicorn --reload 'index:app'
 ```
 
-Page accessable at `http://localhost:8000/`, and can specify the maximum image count by adding the parameter `?maximum=<int>` to the URL.
+Once running, the page is accessible on port 8000: `http://localhost:8000/`. You can specify a maximum image count by adding the parameter `?maximum=<int>` to the URL.
