@@ -1,0 +1,6 @@
+.ropeproject
+.ruff_cache
+.venv
+*.pyc
+__pycache__
+images/*
